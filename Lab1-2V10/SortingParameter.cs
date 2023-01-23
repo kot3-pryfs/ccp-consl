@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab1_2V10
 {
-    class SortingParameter
+    public enum SortingParameter
     {
+        SortByQuantity,
+        SortByCategory
     }
 }
