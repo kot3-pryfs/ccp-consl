@@ -46,6 +46,7 @@
     <Compile Include="Catalog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultProcessing.cs" />
     <Compile Include="SortingParameter.cs" />
   </ItemGroup>
   <ItemGroup>
