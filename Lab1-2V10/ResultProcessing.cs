@@ -98,7 +98,7 @@ namespace Lab1_2V10
         /// </summary>
         /// <param name="category"></param>
         /// <exception cref="ArgumentException"></exception>
-        public void GetSummBySpecificCatalog(string category)
+        public double GetSummBySpecificCatalog(string category)
         {
             if (!_catalogList.Any(x => x.Category.ToString().Equals(category)))
             {
@@ -112,7 +112,7 @@ namespace Lab1_2V10
                     summCatalog += (CatalogList[i].Price * CatalogList[i].Quantity);
                 }
             }
-            Console.WriteLine($"Сумма товаров в данной категории = \"{summCatalog}\"");
+            return summCatalog;
         }
 
         /// <summary>

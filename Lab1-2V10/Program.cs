@@ -146,8 +146,8 @@ namespace Lab1_2V10
                             try
                             {
                                 string category = Console.ReadLine();
-                                Console.WriteLine($"Общая стоимость товаров в категории {category}");
-                                rp.GetSummBySpecificCatalog(category);
+                                Console.Write($"Общая стоимость товаров в категории {category} ");
+                                Console.WriteLine(rp.GetSummBySpecificCatalog(category));
                                 break;
                             }
                             catch (ArgumentException e)
